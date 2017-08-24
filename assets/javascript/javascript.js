@@ -19,8 +19,7 @@ document.onkeyup = function(event) {
         guessLeft--;
         alert ("You lose!");
         previous.push (event.key)
-        
-    }
+        }
     if (guessLeft == 0) {
         lose++;
         alert ("You lose!");
